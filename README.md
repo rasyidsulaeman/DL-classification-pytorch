@@ -6,6 +6,8 @@ MNIST dataset usually was used to check and evaluate whether our built model has
 
 On the other hand, relative to MNIST dataset FashionMNIST dataset has a little bit complexity in their image. Fashion dataset contains 10 classes, each of which decribes fashion product. You can check for more detail of the this dataset on [FashionMNIST](https://github.com/zalandoresearch/fashion-mnist).
 
+![fashion](fashion-mnist-sprite.png)
+
 ## Convolution Neural Network Architechture
 
 The common CNN architechture is depicted in the below figure. 

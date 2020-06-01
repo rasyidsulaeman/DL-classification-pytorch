@@ -6,7 +6,7 @@ MNIST dataset usually was used to check and evaluate whether our built model has
 
 On the other hand, relative to MNIST dataset FashionMNIST dataset has a little bit complexity in their image. Fashion dataset contains 10 classes, each of which decribes fashion product. You can check for more detail of this dataset on [FashionMNIST](https://github.com/zalandoresearch/fashion-mnist).
 
-![fashion](fashion-mnist-sprite.png)
+![fashion](fig/fashion-mnist-sprite.png)
 
 ## Convolution Neural Network Architechture
 
@@ -20,4 +20,10 @@ The concepts is as follow:
 3. Before flowing into the fully-connnected layer, they should be flattening
 4. Fully-connected layer
 
-![CNN](cnn.png)
+![CNN](fig/cnn.png)
+
+
+## Added interactive visualization using Tensorboard
+
+Visualization can replaced the way our data speak to the world. Many of them usually will be easy to understand our data with good visualization. I try to use Tensorboard to visualize the result during training process and added some features to displayed the result on validation set.
+

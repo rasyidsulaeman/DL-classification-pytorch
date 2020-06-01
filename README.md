@@ -25,5 +25,12 @@ The concepts is as follow:
 
 ## Added interactive visualization using Tensorboard
 
-Visualization can replaced the way our data speak to the world. Many of them usually will be easy to understand our data with good visualization. I try to use Tensorboard to visualize the result during training process and added some features to displayed the result on validation set.
+Visualization can replaced the way our data speak to the world. Many of them usually will be easy to understand our data with good visualization. I try to use Tensorboard to visualize the result during training process and added some features to displayed the predicting result on validation set.
 
+### Loss data during training and validation set
+
+![loss](fig/loss-tensorboard.png)
+
+### Predicting result on validation set
+
+![val](fig/result-tensorboard.png)
